@@ -134,3 +134,81 @@ body{
     font-size: 70px;
     text-decoration: underline;
 }
+/* Tablet-specific styles (min-width: 768px and max-width: 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    /* Reduce logo size */
+    #logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 50px;
+    }
+
+    /* Adjust the main heading font size */
+    #head {
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    #header {
+        font-size: 70px;
+    }
+
+    #header_1, #header_2 {
+        font-size: 50px;
+    }
+
+    /* Resize AI Image */
+    #AI_image {
+        max-width: 80px;
+        max-height: 80px;
+        margin-left: 500px; /* Adjust for centering based on layout */
+    }
+
+    /* Adjust text sizes */
+    #p, #p_1 {
+        font-size: 20px;
+        padding-right: 100px; /* Adjust padding for smaller screen */
+    }
+
+    /* Resize and adjust the margin for images in info sections */
+    #image {
+        max-height: 250px;
+        max-width: 250px;
+        margin: 10px;
+    }
+
+    /* Adjust circle images */
+    #circles {
+        width: 200px;
+        height: 200px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    /* Adjust button sizes */
+    #main {
+        width: 250px;
+        height: 80px;
+        font-size: 30px;
+        margin-left: 150px;
+    }
+
+    /* Adjust layout padding and margins */
+    .info, .info_1 {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    /* Align content in a more compact layout */
+    #span {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Adjust background size */
+    body {
+        background-size: 1000px; 
+    }
+}
