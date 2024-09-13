@@ -1,0 +1,136 @@
+
+@font-face {
+    font-family: 'Font_1';
+    src:  url('NewAmsterdam-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#heading{
+    background-color:#d8dfed;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    margin-right: 0;
+    margin-left: 100px;
+    padding-right: 10px;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    margin-right: 0;
+    padding-right: 10px;
+    font-size:100px;
+    text-decoration: underline;
+    animation: slideIn 2s ease-in;
+}
+#header_1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-size:70px;
+    text-decoration: underline;
+}
+#AI_image{
+    max-width:100px;
+    max-height:100px;
+    margin-left: 650px;
+}
+.info {
+    background-color:#d8dfed9e; /* Semi-transparent black */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0); /* Make text white for better contrast */
+}
+.info_1 {
+    background-color:#d8dfed9e; /* Semi-transparent black */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0); /* Make text white for better contrast */
+    text-align: center;
+}
+#p{
+    font-family:"Oswald", sans-serif; 
+    font-size: 25px;
+    font-weight: lighter;
+    padding-right: 200px;
+}
+#p_1{
+    font-family:"Oswald", sans-serif; 
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+#span{
+    align-items:center;
+    display: flex;
+    background-color: #d8dfed58;
+}
+#image
+{
+    max-height: 350px;
+    max-width: 350px;
+    margin: 10px;
+}
+#hr{
+    color: black;
+}
+#circles{
+    border-radius: 250px;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #d8dfed7d;
+}
+#sbs{
+    align-items:center;
+    display: flex;
+}
+body{
+    background-image: url("image.png");
+    background-size: 1200px; 
+    background-repeat: no-repeat;
+    background-position: center 100px;
+}
+#data{
+    width: 370px;
+    height: 350px;
+    margin: 50px;
+}
+#main{
+    margin-left: 250px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #f3c2b9b4;
+    color: rgb(0, 0, 0);
+    font-family: 'Font_1';
+    font-weight: normal;
+    font-style: normal;
+    font-size:40px;
+    text-decoration: underline;
+    border-color: white;
+}
+#header_2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 70px;
+    text-decoration: underline;
+}
