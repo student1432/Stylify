@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         imgElement.onload = () => {
             const dominantColor = colorThief.getColor(imgElement);
             const palette = colorThief.getPalette(imgElement, 6);
+            displayColors(palette);
             const season = determineSeason(dominantColor);
             displaySeason(season);
             displayFashionRecommendations(season);
@@ -43,6 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Display the dominant colors
+    function displayColors(palette) {
+        colorsDiv.innerHTML = '';
+        palette.forEach(color => {
+            colorsDiv.innerHTML += `<div class="color-block" style="background-color: rgb(${color[0]}, ${color[1]}, ${color[2]});"></div>`;
+        });
+    }
 
     // Determine the user's season based on the dominant color
     function determineSeason(color) {

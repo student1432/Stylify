@@ -1,119 +1,94 @@
-
 @font-face {
     font-family: 'Font_1';
     src:  url('NewAmsterdam-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-#heading{
-    background-color:#d8dfed;
+
+#heading {
+    width: 350%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    display: flex;
 }
-#logo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    margin-left: 100px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+
+#logo {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
 }
-#head{
+
+#head {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
-    margin-right: 0;
-    margin-left: 100px;
-    padding-right: 10px;
-    font-size: 50px;
+    margin-left: 25%;
+    font-size: 75%;
     text-decoration: underline;
-    padding-bottom: 15px;
-    margin-bottom: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
 }
-#header{
+
+#header {
     display: flex;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
-    margin-right: 0;
-    padding-right: 10px;
-    font-size:100px;
-    text-decoration: underline;
-    animation: slideIn 2s ease-in;
-}
-#header_1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
-    font-size:70px;
+    font-size: 100px;
     text-decoration: underline;
 }
-#AI_image{
-    max-width:100px;
-    max-height:100px;
-    margin-left: 650px;
-}
-.info {
-    background-color:#d8dfed9e; /* Semi-transparent black */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    color: rgb(0, 0, 0); /* Make text white for better contrast */
-}
-.info_1 {
-    background-color:#d8dfed9e; /* Semi-transparent black */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    color: rgb(0, 0, 0); /* Make text white for better contrast */
-    text-align: center;
-}
-#p{
-    font-family:"Oswald", sans-serif; 
-    font-size: 25px;
-    font-weight: lighter;
-    padding-right: 200px;
-}
-#p_1{
-    font-family:"Oswald", sans-serif; 
-    font-size: 25px;
-    font-weight: lighter;
 
+#header_1, #header_2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-decoration: underline;
 }
-#span{
-    align-items:center;
+
+#AI_image {
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid #126cb5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    margin-left: 50%;
+}
+
+.info, .info_1 {
+    width: 350%;
+    background-color: #d8dfed9e;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+#p, #p_1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 300%;
+    font-weight: lighter;
+}
+
+#span {
+    align-items: center;
     display: flex;
     background-color: #d8dfed58;
 }
-#image
-{
+
+#image, #data {
     max-height: 350px;
     max-width: 350px;
     margin: 10px;
+    border: 2px solid #126cb5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
 }
-#hr{
-    color: black;
-}
-#circles{
-    border-radius: 250px;
-    width: 250px;
-    height: 250px;
-    margin-left: 50px;
-    margin-right: 50px;
+
+#circles {
+    border-radius: 50%;
+    width: 200%;
+    height: 200%;
     background-color: #d8dfed7d;
+    border: 2px solid #126cb5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
 }
-#sbs{
-    align-items:center;
-    display: flex;
-}
-body{
-    background-image: url("image.png");
-    background-size: 1200px; 
-    background-repeat: no-repeat;
-    background-position: center 100px;
-}
-#data{
-    width: 370px;
-    height: 350px;
-    margin: 50px;
-}
-#main{
+
+#main {
     margin-left: 250px;
     width: 300px;
     height: 100px;
@@ -121,94 +96,42 @@ body{
     background-color: #f3c2b9b4;
     color: rgb(0, 0, 0);
     font-family: 'Font_1';
-    font-weight: normal;
-    font-style: normal;
-    font-size:40px;
-    text-decoration: underline;
-    border-color: white;
+    font-size: 40px;
+    border: 2px solid #126cb5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
 }
-#header_2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 70px;
-    text-decoration: underline;
+.flex-container{
+    display: flex;
+    gap: 30%; /* Adds space between elements */
+    padding: 10px;
+
 }
-/* Tablet-specific styles (min-width: 768px and max-width: 1024px) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    
-    /* Reduce logo size */
-    #logo {
-        width: 80px;
-        height: 80px;
-        margin-left: 50px;
-    }
 
-    /* Adjust the main heading font size */
-    #head {
-        font-size: 40px;
-        margin-left: 50px;
-    }
+/* Box shadows */
+#logo, #AI_image, #image, #data, #circles, #main {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.modal-content {
+    border-radius: 10px;
+    padding: 20px;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    transform: translate(-30%, 30%);
+}
 
-    #header {
-        font-size: 70px;
-    }
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+}
 
-    #header_1, #header_2 {
-        font-size: 50px;
-    }
+.modal-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 600%;
+}
 
-    /* Resize AI Image */
-    #AI_image {
-        max-width: 80px;
-        max-height: 80px;
-        margin-left: 500px; /* Adjust for centering based on layout */
-    }
-
-    /* Adjust text sizes */
-    #p, #p_1 {
-        font-size: 20px;
-        padding-right: 100px; /* Adjust padding for smaller screen */
-    }
-
-    /* Resize and adjust the margin for images in info sections */
-    #image {
-        max-height: 250px;
-        max-width: 250px;
-        margin: 10px;
-    }
-
-    /* Adjust circle images */
-    #circles {
-        width: 200px;
-        height: 200px;
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-
-    /* Adjust button sizes */
-    #main {
-        width: 250px;
-        height: 80px;
-        font-size: 30px;
-        margin-left: 150px;
-    }
-
-    /* Adjust layout padding and margins */
-    .info, .info_1 {
-        padding: 15px;
-        margin: 15px;
-    }
-
-    /* Align content in a more compact layout */
-    #span {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    /* Adjust background size */
-    body {
-        background-size: 1000px; 
-    }
+.modal-body {
+    font-family: 'Nixie One', cursive;
+    font-size: 300%;
 }
